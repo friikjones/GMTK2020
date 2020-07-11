@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
     //Movement
     private Rigidbody rb;
     private float inputPitch, inputYaw, inputRoll, inputZ;
-    private float resultPitch, resultYaw, resultRoll, resultZ;
+    public float resultPitch, resultYaw, resultRoll, resultZ;
     public float[] enabledControls;
     public float[] overrideControls;
     public float moveSpeed;
