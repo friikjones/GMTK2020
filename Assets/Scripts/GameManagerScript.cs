@@ -23,8 +23,8 @@ public class GameManagerScript : MonoBehaviour {
     }
 
     void UpdateUI() {
-        dialR.localRotation = Quaternion.Euler(0, 0, UnityEditor.TransformUtils.GetInspectorRotation(player.transform).z);
-        dialP.localRotation = Quaternion.Euler(0, 0, UnityEditor.TransformUtils.GetInspectorRotation(player.transform).x);
-        dialY.localRotation = Quaternion.Euler(0, 0, UnityEditor.TransformUtils.GetInspectorRotation(player.transform).y);
+        dialR.localRotation = Quaternion.Euler(0, 0, player.transform.rotation.eulerAngles.z);
+        dialP.localRotation = Quaternion.Euler(0, 0, player.transform.rotation.eulerAngles.x);
+        dialY.localRotation = Quaternion.Euler(0, 0, player.transform.rotation.eulerAngles.y);
     }
 }
