@@ -439,10 +439,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Seems like you have survived the journey.
+  m_Text: 'Great job on this leg of the trip.
 
-    Maybe we should have made
-    the game harder ;)'
+    Let''s go on the next one!'
 --- !u!222 &892642414
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -520,9 +519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Back
-
-'
+  m_Text: Go!
 --- !u!222 &1275500994
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -615,7 +612,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1377775604}
-        m_MethodName: GotoSceneSingle
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -675,6 +672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Menu
+  nextLevel: 
 --- !u!1 &1544287898
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,8 +875,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 539, y: -238}
-  m_SizeDelta: {x: 1500, y: 400}
+  m_AnchoredPosition: {x: 404, y: -238}
+  m_SizeDelta: {x: 1000, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786892711
 MonoBehaviour:
@@ -906,13 +904,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 100
-    m_Alignment: 4
+    m_Alignment: 5
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Congratulations!
+  m_Text: Ready?
 --- !u!222 &1786892712
 CanvasRenderer:
   m_ObjectHideFlags: 0

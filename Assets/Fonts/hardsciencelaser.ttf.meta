@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 49a765ebe3e62474780cae57d931db1f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hard Science Laser
+  fontNames:
+  - Hard Science Laser
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c0ac728b31312604099c1c4d1fbd6369, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

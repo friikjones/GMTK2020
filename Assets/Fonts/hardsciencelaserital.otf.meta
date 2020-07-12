@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1ae8ecd1b7a39ad48a0979e1fa91db8b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hard Science Laser Italic
+  fontNames:
+  - Hard Science Laser Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a8eebe9ac5c81d145b3c47d06e9621a1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2404,7 +2404,7 @@ MonoBehaviour:
   arrowP: {fileID: 0}
   arrowY: {fileID: 0}
   o2gauge: {fileID: 0}
-  nextLevel: Level2
+  nextLevel: Level3
 --- !u!4 &2095800157
 Transform:
   m_ObjectHideFlags: 0

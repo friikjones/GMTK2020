@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0cba8fb98d66a9e44b942ca32e7eb0ff
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hard Science Leftalic
+  fontNames:
+  - Hard Science Leftalic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aa95592bdea666d44a571598edcddd9b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

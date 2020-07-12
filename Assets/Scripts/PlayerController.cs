@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour {
 
     //Misc
     private GameManagerScript gmScript;
+    public bool gameEnded;
 
     void Start() {
         rb = GetComponent<Rigidbody>();
@@ -32,8 +33,10 @@ public class PlayerController : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        UpdateInputs();
-        UpdateStatus();
+        if (!gameEnded) {
+            UpdateInputs();
+            UpdateStatus();
+        }
     }
 
     void UpdateInputs() {

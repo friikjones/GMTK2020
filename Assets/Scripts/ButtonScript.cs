@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ButtonScript : MonoBehaviour {
     public string scene;
+    public string nextLevel;
+
+    private void Start() {
+        nextLevel = PlayerPrefs.GetString("Level", "Level1");
+    }
 
     public void GotoSceneSingle() {
-        Debug.Log("Single pressed");
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
     public void GoToSceneAddictive() {
@@ -15,5 +19,8 @@ public class ButtonScript : MonoBehaviour {
     }
     public void QuitGame() {
         Application.Quit();
+    }
+    public void NextScene() {
+        SceneManager.LoadScene(nextLevel, LoadSceneMode.Single);
     }
 }

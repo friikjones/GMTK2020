@@ -12,12 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Credits.unity
     guid: 91d55c1183d90af4abf9eaeb20edc8b7
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/NextLevel.unity
+    guid: c5acd183711b5124a9da20b7b1dcf6eb
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: d32350a9cb656574d8a7b47293f7fb91
   - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: 1f9ebfdd3a0d1094b934ba99c3f13645
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 64515805c2c965f409bd50a79af01f99
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 04ce77a5803396b4f99ea0c1a3efd44a
   m_configObjects: {}
